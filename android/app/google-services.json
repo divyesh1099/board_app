@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "309570179100",
+    "project_id": "flutterboardapp-1db5e",
+    "storage_bucket": "flutterboardapp-1db5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309570179100:android:7c4c2f0290b5f3efdd4fd9",
+        "android_client_info": {
+          "package_name": "com.divyesh.board_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309570179100-qe621us2pi3n2ui2of8ekjtj6bppu2eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWxev-9cY7Fi8abq4GiVkREOl95CzvLNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309570179100-qe621us2pi3n2ui2of8ekjtj6bppu2eq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
