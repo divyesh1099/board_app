@@ -30,3 +30,36 @@ class _BoardAppState extends State<BoardApp> {
     );
   }
 }
+
+// class GetUserName extends StatelessWidget {
+//   final String documentId;
+//
+//   GetUserName(this.documentId);
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     CollectionReference users = FirebaseFirestore.instance.collection('board');
+//
+//     return FutureBuilder<DocumentSnapshot>(
+//       future: users.doc(documentId).get(),
+//       builder:
+//           (BuildContext context, AsyncSnapshot<DocumentSnapshot> snapshot) {
+//
+//         if (snapshot.hasError) {
+//           return Text("Something went wrong");
+//         }
+//
+//         if (snapshot.hasData && !snapshot.data!.exists) {
+//           return Text("Document does not exist");
+//         }
+//
+//         if (snapshot.connectionState == ConnectionState.done) {
+//           Map<String, dynamic> data = snapshot.data!.data() as Map<String, dynamic>;
+//           return Text("Full Name: ${data['title']} ${data['description']}");
+//         }
+//
+//         return Text("loading");
+//       },
+//     );
+//   }
+// }
